@@ -1574,7 +1574,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #4475C9 !important;
 		}
 
 	strong, b {
@@ -1726,7 +1726,7 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #4475C9;
 		font-size: 3.5em;
 	}
 
@@ -1789,7 +1789,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #4475C9;
 		}
 
 	.select-wrapper {
@@ -1899,7 +1899,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #4475C9;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2092,7 +2092,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
+					background: #4475C9;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -2122,6 +2122,15 @@
 
 				ul.icons li .icon:before {
 					font-size: 1.25em;
+				}
+
+				i.devicon-ruby-plain, i.devicon-rails-plain,
+				i.devicon-javascript-plain, i.devicon-react-original,
+				i.devicon-nodejs-plain, i.devicon-postgresql-plain,
+				i.devicon-html5-plain, i.devicon-jquery-plain {
+					color: #4475C9;
+					margin-right: 20px;
+					font-size: 40px;
 				}
 
 		ul.actions {
@@ -2379,7 +2388,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4acaa8;
+			background-color: #4475C9;
 			color: #ffffff !important;
 		}
 
@@ -2449,7 +2458,7 @@
 /* Header */
 
 	#header {
-		background: #4acaa8;
+		background: #4475C9;
 		color: #d1f1e9;
 		height: 100%;
 		position: fixed;
@@ -2523,7 +2532,7 @@
 		}
 
 			#header > nav ul li {
-				border-top: solid 2px #5ccfb0;
+				border-top: solid 2px #6696D4;
 				display: block;
 				padding: 0;
 			}
@@ -2542,7 +2551,7 @@
 
 					#header > nav ul li a.active {
 						background: #fff;
-						color: #4acaa8 !important;
+						color: #4475C9 !important;
 					}
 
 				#header > nav ul li:first-child {
@@ -2821,7 +2830,7 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #4475C9;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
