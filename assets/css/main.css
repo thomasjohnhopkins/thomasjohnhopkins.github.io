@@ -1586,6 +1586,22 @@
 		font-style: italic;
 	}
 
+	i.contact {
+		margin-right: 10px;
+		color: #4475C9;
+	}
+
+	a.contact-link {
+		text-decoration: none;
+		border: 0;
+	}
+
+	a.contact-link:hover {
+		text-decoration: none;
+		border: 0;
+	}
+
+
 	p {
 		margin: 0 0 2.25em 0;
 	}
