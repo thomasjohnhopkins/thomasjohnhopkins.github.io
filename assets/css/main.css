@@ -2098,6 +2098,14 @@
 				width: 48%;
 			}
 
+			div.skill {
+				font-size: 20px;
+				display: inline-block;
+				margin-top: 10px;
+				vertical-align: top;
+
+			}
+
 				ul.feature-icons li:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
